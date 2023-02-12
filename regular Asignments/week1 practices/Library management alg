@@ -1,0 +1,26 @@
+Library management
+use case1: admin login
+step1:start
+step2:Admin login
+step3:enter admin id and password
+step4:if admin id and password incorrect then exit
+step5:else login sucessfully
+step6:keep track of books taken out and given back
+by students
+step7:if check in is dealyed then isuue fine
+step8:stop
+
+
+usecase2:student login
+step1:start
+step2:enter student id and password
+step3:if student id and password incorrect then 
+exit
+step4:else login sucessfully
+step5:search for book on library
+step6:if book found then display
+step7:else book is not in stock
+step8:check out the book if necessary
+step 9:student can check fines dealyed for 
+returning the books after the dealyed date
+step 10"stop
