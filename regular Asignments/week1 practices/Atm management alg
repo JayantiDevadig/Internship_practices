@@ -1,0 +1,57 @@
+Atm management alg
+usecase1: cash withdraw
+step1:start 
+step2:insert card
+step3:enter pin
+step4:if entered pin is wrong,then transaction id 
+failed
+step5:else select the type of account
+ saving or current
+step6:enter the amount to be withdrawn
+step7:take out the money from the atm machine
+step 8:stop
+
+
+
+
+usecase2:account balnace inquiry
+step1:start
+step2:insert card
+step3:press on balance inquiry option
+step4:enter your pin
+step5:select the type of account
+ current or saving
+step6:your transaction is processed please wait
+step6: your transaction is sucessful
+ available bal
+step7:stop
+
+
+use case3:transfer fund 
+step1:start
+step2:insert card
+step3:enter your pin
+step4: press on transfer option
+step5:press beneficiary's and acc num
+step6:select the type of account
+ current or saving
+step7:enter the amount transferred
+step8:then click correct or incorrect
+ if its 'correct' then click 'yes'to confirm
+the amount entered
+step9:after providing fund transfer amount,the fun
+will be transfered sucesfully
+ else
+ if a transaction is not completed within 
+the time limit provided then a"time out"
+step 10: stop
+
+
+use case4:change pin
+step1:start
+step2:insert card
+step3:select change pin
+step4:enter the account number
+step5:enter pin and select 
+step6:reenter pin and select ok
+step:stop
