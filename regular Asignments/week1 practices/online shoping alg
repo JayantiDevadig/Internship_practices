@@ -1,0 +1,56 @@
+online shoping
+usecase1 : processing order
+step1 : start
+step2 : search for an item in the search menu
+step3 : click on search 
+step4 : if item not found 
+ product not available
+step5 : click on the product 
+step6 : click on the buy now option
+step7 : enter the address on which the parcel 
+should be delivered
+step8 : click on deliver
+step9 : stop
+
+
+
+usecase2 : return and exchange
+step1 : start
+step2 : click on exchange product if the product 
+received is damaged or it does not match the 
+quality or size 
+step3 : enter the reason for exchange 
+step4 :enter the altered data for the new product 
+that is to be exchanged
+step5 : place order 
+step6 : order placed successfully
+step7 : else click on return if you dont want the 
+product anymore or it is damaged 
+step8 : enter the reason for returning 
+step9 : refund amount after returning product
+step10 : stop
+
+
+usecase3 : payments 
+step1 : start
+step2 : select payment method
+step3 : if payment is online 
+step4 : enter the required details
+step5 : click on place your order 
+step6 : order placed successfully
+step7 : else entered details is wrong and redirect
+to the page saying invalid data
+step8 : else if payment is cash on delivery then
+step9 : select place your order
+step10 : order placed successfully
+step11 : stop
+
+usecase4 : customer account management
+step1 : start
+step2 :create account
+step3 : enter user details
+step4 : account created suceffully
+step5 : user can search product
+step6 : user can ordrer product 
+
+step7 : stop
