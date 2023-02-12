@@ -1,0 +1,161 @@
+1.
+find whether number is even or odd       
+ BEGIN
+    declare number
+    READ number
+            IF n% 2 = 0 THEN
+                   DISPLAY "Number is Even"
+            ELSE
+                   DISPLAY "Number is Odd"
+    END IF
+5. END
+========================================================
+
+2.find whether number is negitive or postive OR ZER0
+BEGIN
+     DECLARE num
+     READ num
+           IF num>0  THEN
+                    DISPLAY "number is positive"
+            ELSE IF num <0 THEN
+                     DISPLAY " number is negative"
+             ELSE
+                      DISPLAY" number is zero"
+             ENDIF
+ 
+                   
+END
+========================================
+3.find whether number is negitive or postive 
+BEGIN
+     DECLARE num
+     READ num
+          IF num>0  THEN
+                  DISPLAY " number is positive"
+          ELSE
+                  DISPLAY "Entered number is negative"
+                       
+END
+=============================================
+4find whether the number is divisible by 5 or not
+BEGIN
+     DECLARE NUMBER
+     READ number
+             IF n%5 = 0 THEN
+                      DISPLAY "Number is divisible by 5"
+             ELSE
+                      DISPLAY "Number is not divisible by 5"
+              END IF
+END
+=====================================
+
+5.find whether character is vowel or consonant
+BEGIN
+     DECLARE  vowel, consonant,ch
+     READ CH
+                IF CH=='A'|| CH=='E'|| CH=='I'|| CH=='O'|| CH=='O'||
+                    CH=='a' CH=='e' CH=='i' CH=='u' CH=='o' THEN
+                            DISPLAY THE CHARACTER IS VOWEL
+                ELSE
+                             DISPLAY THE CHARACTER IS  consonant
+END
+======================================
+6.find whether character is alphabet or digit or special character
+BEGIN 
+     DECLARE CH
+     READ character Ch
+            if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))then
+      	             DISPLAY IT IS alphabet
+            ELSE IF(ch >= '0' && ch <= '9') THEN
+		      DISPLAY IT digit
+	    ELSE 
+   		      DISPLAY special character
+END
+=============================
+7.find whether charcter is 't' or not 
+BEGIN 
+     DECLARE CH
+     READ CH
+            IF CH>='a'&&ch<='z' THEN
+                      DISPALY CHAR IN 'T'
+            ELSE
+                       DISPLAY CHAR NOT IN 'T'
+END
+===============================
+8.preimeter of RECTANGLE
+BEGIN
+   DECLARE l,b,P;
+   READ l,b;
+   CALCULATE P=2*(L*B)
+   DISPLAY P;
+END
+=============================
+9.preimeter of SQUARE
+BEGIN
+     DECLARE s,p;
+     READ SIDE
+     CALUCATE P=4*S;
+     DISPLAY P
+END
+===================================
+10.preimeter of TRIANGLE
+BEGIN 
+   DECLARE BASE,,HEGIHT,P
+   READ B,H
+   CALUCALTE P=1/2(B*H)
+   DISPLAY P
+END
+===================================
+11,AREA OF SQUARE
+BEGIN
+     DECLARE s,AREA;
+     READ SIDE
+     CALCULATE area=s*s
+     DISPLAY AREA
+END
+=========================
+12 AREA OF RECTANGLE
+BEGIN
+   DECLARE l,b,AREA;
+   READ l,b;
+   CALCULATE AREA=L*B
+   DISPLAY AREA
+END
+=========================
+13.AREA OF TRIANGLE
+BEGIN 
+   DECLARE BASE,HEGIHT,AREA
+   READ B,H
+   CALCULATE AREA=B*H
+END
+=============================
+14. calculate sum of 2 numbers,
+BEGIN
+      Declare num1, num2 and sum
+      Read values for num1, num2
+      Calculate sum=num1+num2
+      Display sum 
+END
+=====================
+15.calculate the biggest number.
+BEGIN
+      DECLARE A,B,BIG
+      READ A,B
+           IF (A>B) THEN
+              DISPLAY  A IS BIG
+           ELSE
+              DISPLAY B IS BIG
+END
+===============================
+16.FIND THE FACTOR OF NUMBER
+BEGIN 
+    DECLARE I,N
+    READ N
+    INITIALIZE I=1
+        WHILE (I<=N/2)DO
+        IF (N%I==0)THEN
+    END WHILE
+         DISPLAY I
+            I=I+1
+    END IF
+END
